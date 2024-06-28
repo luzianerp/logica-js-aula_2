@@ -1,0 +1,23 @@
+Explicações:
+
+Alerta inicial: Exibe uma mensagem de boas-vindas ao jogo.
+
+Número secreto: Define o número secreto como 9.
+
+Variáveis: chute para armazenar o número digitado pelo usuário e tentativas para contar quantas tentativas foram feitas.
+
+Loop while: Mantém o jogo em execução enquanto o chute não for igual ao numeroSecreto.
+
+Prompt: Solicita ao usuário que escolha um número entre 1 e 10.
+
+Verificação de cancelamento: Verifica se o usuário cancelou o prompt. Se cancelou, exibe uma mensagem e sai do loop usando break.
+
+Conversão de string para número: Converte o valor digitado pelo usuário (que é inicialmente uma string) para um número usando Number().
+
+Validação do chute: Verifica se o número digitado está dentro do intervalo válido (entre 1 e 10) e se é um número válido usando isNaN().
+
+Verificação do chute: Compara o chute com o numeroSecreto:
+
+Se acertar, exibe uma mensagem de parabéns com o número secreto e o número de tentativas.
+Se errar, informa se o numeroSecreto é maior ou menor que o chute.
+Incremento das tentativas: A cada tentativa válida (não cancelada e dentro do intervalo), incrementa o contador tentativas.
